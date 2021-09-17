@@ -34,25 +34,31 @@ namespace cod
 
        
 
-        /* Student student=new Student(Convert.ToInt16(Console.ReadLine()),Convert.ToInt16(Console.ReadLine()),Convert.ToInt16(Console.ReadLine()),
-
-           Convert.ToInt16(Console.ReadLine()),Convert.ToInt16(Console.ReadLine()),Convert.ToString( Console.ReadLine()),Convert.ToString(Console.ReadLine()),
-
-         Convert.ToString( Console.ReadLine() ));*/
+        
 
             
 
-       Student student=new Student(1,1,1,1,1,"1","1","1");
+       Student student=new Student(1,1,1,1,"Bio","1","1","cot");
 
 		Teacher teacher=new Teacher(1,1,1,1,"1","1","1");
+
+		
 
 		teacher.Course_students=student;
 
 		teacher.Get_Course_students();
 
-          /* age = Convert.ToInt16(Console.ReadLine());
+		Console.WriteLine(student.Average_score);
 
-            Console.WriteLine(age*age);*/
+		student.Get_student_type();
+
+		Console.WriteLine();
+
+		
+
+		student.Get_Score();*/
+
+		
 
         }
 
